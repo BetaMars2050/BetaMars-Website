@@ -1,0 +1,355 @@
+@charset "utf-8";
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+a:link {
+  text-decoration: none;
+  color: #000;
+}
+
+a:visited {
+  text-decoration: none;
+  color: #000;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #000;
+}
+
+a:active {
+  text-decoration: none;
+  color: #000;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none !important;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+textarea[type="textarea"] {
+  resize: none;
+}
+
+ul,
+ol {
+  padding: 0;
+  margin: 0;
+}
+
+ul li,
+ol li {
+  list-style: none;
+}
+
+body,
+p,
+dl,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+img {
+  border: none;
+  vertical-align: middle;
+  user-drag: none;
+  -webkit-user-drag: none;
+
+
+}
+
+.clearfix {
+  *zoom: 1;
+}
+
+.clearfix:after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+::-webkit-scrollba::-webkit-scrollbar-thumb::-webkit-scrollbar-track::-webkit-scrollbar-button::-webkit-scrollbar-track-piece::-webkit-scrollbar-corner::-webkit-resizer a,
+img {
+  -webkit-touch-callout: none
+}
+
+
+html,
+body {
+  -webkit-user-select: none;
+  user-select: none;
+  background-color: #0C0D0E ;
+}
+
+section {
+
+  box-sizing: border-box;
+}
+
+input::placeholder {
+  /* most browsers */
+  font-size: .1867rem;
+  font-family: "BankGothic";
+  font-weight: 400;
+  color: #3d3d3f;
+}
+
+::-webkit-input-placeholder {
+  /* WebKit browsers */
+  font-size: .1867rem;
+  font-family: "BankGothic";
+  font-weight: 400;
+  color: #3d3d3f;
+}
+
+:-moz-placeholder {
+  /* Mozilla Firefox 4 to 18 */
+  font-size: .1867rem;
+  font-family: "BankGothic";
+  font-weight: 400;
+  color: #3d3d3f;
+}
+
+::-moz-placeholder {
+  /* Mozilla Firefox 19+ */
+  font-size: .1867rem;
+  font-family: "BankGothic";
+  font-weight: 400;
+  color: #3d3d3f;
+}
+
+:-ms-input-placeholder {
+  /* Internet Explorer 10+ */
+  font-size: .1867rem;
+  font-family: "BankGothic";
+  font-weight: 400;
+  color: #3d3d3f;
+}
+
+::-webkit-input-speech-button {
+  display: none
+}
+
+div {
+  box-sizing: border-box;
+  letter-spacing: .0267rem;
+
+}
+
+
+.page-enter-active,
+.page-leave-active {
+  transition: opacity .4s;
+}
+
+.page-enter,
+.page-leave-active {
+  opacity: 0;
+}
+
+#nprogress .bar {
+  background: #f76e23 !important;
+}
+
+#nprogress .peg {
+  box-shadow: 0 0 .1333rem #f76e23, 0 0 .0667rem #f76e23 !important;
+}
+
+#walletconnect-wrapper {
+  font-size: .2133rem !important;
+}
+
+.el-table,
+.el-table__header-wrapper,
+.el-table__row,
+.el-table--striped .el-table__body tr.el-table__row--striped td,
+.el-table__header,
+.el-table tr,
+.el-table th.el-table__cell {
+  background-color: transparent !important;
+  border-color: #51311C !important;
+  font-size: .2667rem !important;
+  font-family: 'BankGothic';
+  font-weight: 400;
+  color: #BAB9B6;
+}
+
+
+.el-table--enable-row-transition .el-table__body td.el-table__cell,
+.el-table th.el-table__cell {
+  padding: .08rem 0 !important;
+}
+
+.el-table td,
+.building-top .el-table th.is-leaf {
+  border-color: #51311C !important;
+
+}
+
+.el-table::before {
+  background-color: #51311C !important;
+}
+
+.el-table th.is-leaf {
+  border: none;
+}
+
+.el-table::before {
+  border-bottom: none;
+  height: 0rem
+}
+
+
+.el-table tbody tr:hover>td {
+  background-color: black !important;
+  color: #fff !important;
+
+}
+
+.el-pagination.is-background .btn-next,
+.el-pagination.is-background .btn-prev,
+.el-pagination.is-background .el-pager li {
+  background-color: rgba(253, 147, 88, 0.3) !important;
+  border: .0133rem solid rgba(253, 154, 100, 1);
+  color: #fff !important;
+  height: .48rem;
+  line-height: .48rem;
+  min-width: .48rem !important;
+}
+
+.el-pagination.is-background .el-pager li:not(.disabled).active {
+  background-color: #F76E23 !important;
+  border: .0133rem solid rgba(253, 147, 88, 0.3) !important;
+
+}
+
+.el-loading-mask {
+  background-color: rgba(0, 0, 0, .7) !important;
+}
+
+.el-loading-mask.is-fullscreen .el-loading-spinner .circular {
+  width: 1.6rem !important;
+  height: 1.6rem !important;
+}
+
+.el-loading-spinner .path {
+  stroke: rgba(247, 110, 35, 1) !important;
+}
+
+.el-loading-spinner .el-loading-text {
+  color: #fff !important;
+  font-size: .28rem !important;
+  font-family: 'BankGothic';
+}
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0
+  }
+
+  100% {
+    opacity: 1
+  }
+}
+
+.text-xl {
+  font-size: .5333rem !important;
+}
+
+.text-lg {
+  font-size: .4rem !important;
+}
+
+.text-xs {
+  font-size: .2667rem !important;
+}
+.el-input-number{
+  width: 3.8933rem!important;
+  line-height: .6667rem!important;
+
+}
+.el-input-number .el-input__inner{
+  width: 3.8933rem!important;
+  height: .6667rem!important;
+  background: #000000!important;
+  border-radius: .0533rem .0533rem .0533rem .0533rem!important;
+  border: .0133rem solid rgba(255, 144, 0, 0.2)!important;
+  font-size: .32rem!important;
+
+  font-family: Ubuntu !important;
+  font-weight: 400!important;
+  color: #FFFFFF!important;
+  box-sizing: border-box!important;
+  outline: none!important;
+  line-height: .6667rem!important;
+}
+.el-input{
+  width: 3.8933rem!important;
+  height: .6667rem!important;
+  background: #000000!important;
+  border: none!important;
+  line-height: .6667rem!important;
+  outline: none!important;
+  font-size: .32rem!important;
+
+font-family: Ubuntu !important;
+font-weight: 400!important;
+color: #FFFFFF!important;
+box-sizing: border-box!important;
+
+}
+.el-input-number__decrease, .el-input-number__increase{
+  width: .8rem!important;
+  background: #000000!important;
+  border-right: none!important;
+  border-left: none!important;
+  line-height: .64rem!important;
+font-size: .2667rem!important;
+font-weight: bold!important;
+color: #fff!important;
+.el-icon-plus,.el-icon-minus{
+font-weight: bold!important;
+  
+}
+
+}
+.el-input-number__decrease:hover, .el-input-number__increase:hover{
+  color: #fff!important;
+}
+.el-input__inner:hover,.el-input-number__decrease:hover:not(.is-disabled)~.el-input .el-input__inner:not(.is-disabled), .el-input-number__increase:hover:not(.is-disabled)~.el-input .el-input__inner:not(.is-disabled){
+  border-color:  rgba(255, 144, 0, 0.2)!important;
+}

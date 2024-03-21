@@ -1,0 +1,28 @@
+@font-face {
+  font-family: "BANKGOTHIC";
+  src: url('./BANKGOTHIC-REGULAR.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ubuntu";
+  src: url('./Ubuntu.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Ubuntu-Bold";
+  src: url('./Ubuntu-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: "Atami";
+  src: url('./Atami.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
